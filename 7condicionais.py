@@ -21,7 +21,7 @@
 
 
 # if condição:
-    # Código a ser executado se a condicão for verdadeira
+    # Código a ser executado se a condição for verdadeira
 # elif outra_condição:
     # Código executado se a primeira condição for falsa, mais essa for verdadeira
 # else:
@@ -38,3 +38,17 @@ if idade >= 18:
     print("Você pode entrar no evento!")
 else:
     print("Desculpe, você ainda não tem idade suficiente para entrar.")
+
+
+# Verificando a nota de um aluno
+
+nota = float(input("Digite sua nota: "))    # Usuário insere a nota
+
+if nota >=7:
+    print("Parabéns! Você passou de ano!")
+elif nota >=5:
+    print("Você está de recuperação. Estude mais e tente novamente.")
+else:
+    print("Infelizmente, você foi reprovado. Tente novamente no próximo ano.")
+
+    
